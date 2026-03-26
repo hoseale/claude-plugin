@@ -1,0 +1,8 @@
+{
+  "name": "novel",
+  "version": "1.0.0",
+  "description": "长篇小说自动化创作与上下文管理插件",
+  "author": {
+    "name": "lihongliang"
+  }
+}

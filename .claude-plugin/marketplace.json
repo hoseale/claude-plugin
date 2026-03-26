@@ -1,0 +1,13 @@
+{
+  "name": "lee-tools",
+  "owner": {
+    "name": "lee"
+  },
+  "plugins": [
+    {
+      "name": "novel",
+      "source": "./plugins/novel",
+      "description": "长篇小说自动化创作与上下文管理插件"
+    }
+  ]
+}
