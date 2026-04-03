@@ -92,28 +92,29 @@ description: "小说大纲生成器：根据用户输入，按步骤生成完整
 - **伏笔回收**：之前埋下的伏笔如何回收
 - **留白与想象**：给读者的思考空间
 
-## 使用流程
-
-1. 询问小说类型、灵感、篇幅、风格等基本信息。
-2. 按模块逐步输出内容，每步完成后可调整。
-
-## 输出格式
-
-1. 按步骤输出模块内容，每模块完成后可调整。
-2. 最终输出完整大纲，整理到项目目录：
-   - `01_World/world_setting.md`：世界观
-   - `02_Characters/`：角色卡（每个角色单独文件）
-   - `03_Outline/main_outline.md`：全书总纲，如果采用分卷规划，需要包含分卷结构配置，模板参考项目下的 `./volume_structure.md`，没有则参考插件内置的`/templates/volume_structure.md`
-   - **分卷细纲规划输出**（如果进行了分卷规划）：
-     - `03_Outline/volume_<卷号>_detailed.md`：各卷的细纲模板（卷级细纲），模板参考项目下的 `./volume_detailed.md`，没有则参考插件内置的`/templates/volume_detailed.md`
-3. **版本控制**：重要的构思节点自动提交git记录
-
 ## 文风与语感定制
 
 1. 根据题材为写手制定《文风指南》
 2. 提炼题材专属**名词库**
 3. 提炼**禁用词汇**
 4. 规则插入到`style_guide.md`最后
+
+## 使用流程
+
+1. 询问小说类型、灵感、篇幅、风格等基本信息。
+2. 按**小说大纲核心内容**逐步输出，每步完成后可调整。
+3. 文风与语感定制
+4. 版本控制：重要的构思节点自动提交git记录
+
+## 输出格式
+
+整理到项目目录
+
+- `01_World/world_setting.md`：世界观
+- `02_Characters/`：角色卡（每个角色单独文件）
+- `03_Outline/main_outline.md`：全书总纲，如果采用分卷规划，需要包含分卷结构配置，模板参考项目下的 `./volume_structure.md`，没有则参考插件内置的`/templates/volume_structure.md`
+- **分卷细纲规划输出**（如果进行了分卷规划）：
+  - `03_Outline/volume_<卷号>_detailed.md`：各卷的细纲模板（卷级细纲），模板参考项目下的 `./volume_detailed.md`，没有则参考插件内置的`/templates/volume_detailed.md`
 
 ## 交互原则
 
