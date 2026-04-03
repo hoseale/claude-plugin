@@ -8,6 +8,11 @@
       "name": "novel",
       "source": "./plugins/novel",
       "description": "长篇小说自动化创作与上下文管理插件"
+    },
+    {
+      "name": "wx",
+      "source": "./plugins/wx",
+      "description": "微信公众号自动化创作与热点分析"
     }
   ]
 }
