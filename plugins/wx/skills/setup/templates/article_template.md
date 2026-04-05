@@ -268,7 +268,6 @@
         margin: var(--space-xl) 0 var(--space-md) 0;
         display: flex;
         flex-wrap: wrap;
-        gap: 8px;
       }
 
       .tag {
@@ -281,6 +280,7 @@
         font-size: 13px;
         font-weight: 500;
         transition: all 0.2s ease;
+        margin-right: 8px;
       }
 
       .tag:hover {

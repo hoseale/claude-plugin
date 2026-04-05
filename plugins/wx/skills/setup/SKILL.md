@@ -41,8 +41,8 @@ wx-project/
 
 ### 5. 复制模板文件
 
-- 将插件目录下的 `templates/article_template.md` 内容复制到 `article_template.md`。
-- 将插件目录下的 `templates/style_guide.md` 内容复制到 `style_guide.md`。
+- `templates/article_template.md` 内容复制到 `article_template.md`。
+- `templates/style_guide.md` 内容复制到 `style_guide.md`。
 
 ### 6. Git 初始化
 
