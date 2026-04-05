@@ -18,6 +18,7 @@ description: "小说大纲生成器：根据用户输入，按步骤生成完整
 - [ ] Step6: 确定章节大纲
 - [ ] Step7: 结局设计
 - [ ] Step8: 文风与语感定制
+- [ ] Step9: 输出文档
 
 ### 1. 确定基本信息
 
@@ -89,10 +90,15 @@ description: "小说大纲生成器：根据用户输入，按步骤生成完整
 
 ### 6. 确定章节大纲
 
-- **分卷规划**：根据篇幅判断是否分卷
-- **分卷概要**：各卷概要
-- **每章概要**
-- **章节节奏**：快/慢交替
+1. 确定是否采用分卷模式（是/否）。
+2. 确定大纲及细纲
+
+- 单章字数要求3000～4000字，请合理规划
+- **分卷模式**
+  - 确定分卷大纲， 模板参考工作目录 `./volume_structure.md`
+  - 确定每一卷的细纲， 模板参考工作目录下 `./volume_detailed.md`
+- **不分卷模式**
+  - 确定章节细纲， 模板参考工作目录下的 `./chapter_outline.md`
 
 ### 7. 结局设计
 
@@ -107,22 +113,20 @@ description: "小说大纲生成器：根据用户输入，按步骤生成完整
 3. 提炼**禁用词汇**
 4. 规则插入到`style_guide.md`最后
 
-## 版本控制
-
-git commit -m "{概要}"
-
-## 输出格式
-
-整理到工作目录
+### 9. 输出文档
 
 - `01_World/world_setting.md`：世界观
 - `02_Characters/`：角色卡（每个角色单独文件）
 - `03_Outline/main_outline.md`：主线大纲
 - **分卷模式**
-  - `03_Outline/volume_structure.md`：分卷大纲，模板参考工作目录的 `./volume_structure.md`
-  - `03_Outline/volume_<卷号>_detailed.md`：各卷的细纲模板（卷级细纲），模板参考工作目录下的 `./volume_detailed.md`
+  - `03_Outline/volume_structure.md`：分卷大纲
+  - `03_Outline/volume_<卷号>_detailed.md`：各卷的细纲模板（卷级细纲）
 - **不分卷模式**
-  - `03_Outline/chapter_outline.md`：章节大纲，模板参考工作目录下的 `./chapter_outline.md`
+  - `03_Outline/chapter_outline.md`：章节大纲
+
+## 版本控制
+
+git commit -m "{概要}"
 
 ## 交互原则
 
