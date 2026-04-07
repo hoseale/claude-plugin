@@ -24,7 +24,7 @@ description: 根据账号主题和热点撰写HTML格式的微信公众号文章
 
 ### 2. 加载上下文
 
-读取以下文件：
+读取工作目录下的文件：
 
 - `account_profile.md` - 账号主题配置
 - `style_guide.md` - 文风指南
@@ -43,7 +43,7 @@ description: 根据账号主题和热点撰写HTML格式的微信公众号文章
 
 ### 5. 撰写 HTML 文章
 
-参考 `article_template.md` 的 HTML 模板生成文章。
+参考工作目录下 `article_template.md` 的 HTML 模板生成文章。
 
 **封面图处理**：
 
@@ -90,7 +90,7 @@ description: 根据账号主题和热点撰写HTML格式的微信公众号文章
 
 ### 8. 保存文章
 
-保存到 `articles/` 目录：
+保存到工作目录下的 `articles/` 目录：
 
 - 文件名: `article_YYYYMMDD_{话题关键词}.html`
 - 包含完整 HTML 结构和样式
