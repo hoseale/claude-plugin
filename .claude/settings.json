@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "additionalDirectories": [
+      "/Users/lihongliang/Desktop/claude-novel-plugin/plugins/novel/agents"
+    ]
+  }
+}

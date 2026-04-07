@@ -4,11 +4,12 @@
 
 ## 工作流程
 
-1. 使用 `/brainstorm` 进行灵感发散和杂记记录
+1. 使用 `/brainstorm` 进行大纲创作和角色设定
 2. 使用 `/write-chapter` 撰写章节正文
 3. 使用 `/review` 进行章节审核
 4. 使用 `/migrate-volume` 进行卷迁移
 5. 使用 `/compress-memory` 进行内存压缩，释放空间
+6. 使用 `/volume-outline` 进行分卷大纲创作
 
 ## 目录说明
 
@@ -21,7 +22,7 @@
 │   └── 角色设定文档
 ├── 03_Outline/         # 大纲提要
 │   ├── main_outline.md      # 主线大纲
-│   ├── volume_structure.md  # 分卷结构（分卷时）
+│   ├── volume_structure.md  # 分卷大纲（分卷时）
 │   ├── volume_X_detailed.md # 各卷细纲（分卷时）
 │   ├── chapter_outline.md   # 章节大纲（不分卷时）
 │   └── summary.md           # 章节概要汇总
