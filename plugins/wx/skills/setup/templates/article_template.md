@@ -11,7 +11,7 @@
     <title>{文章标题}</title>
     <style>
       /* ========================================
-         基础色板 - 中性色阶
+         基础色板 - 清新自然风
          ======================================== */
       :root {
         --neutral-950: #0f0f0f;
@@ -26,34 +26,35 @@
         --neutral-50: #fafafa;
         --white: #ffffff;
 
-        /* 强调色 */
-        --accent-amber: #d97706;
-        --accent-amber-light: #fffbeb;
-        --accent-amber-border: #f59e0b;
-        --accent-pink: #db2777;
+        /* 清新自然强调色 */
+        --accent-mint: #10b981;
+        --accent-mint-light: #ecfdf5;
+        --accent-mint-border: #6ee7b7;
+        --accent-sage: #059669;
+        --accent-coral: #f97316;
 
         /* ========================================
            功能语义变量
            ======================================== */
         /* 背景 */
         --bg-body: var(--white);
-        --bg-summary: var(--neutral-100);
+        --bg-summary: var(--accent-mint-light);
         --bg-quote: var(--neutral-100);
-        --bg-key-point: var(--accent-amber-light);
+        --bg-key-point: var(--accent-mint-light);
         --bg-tag: var(--neutral-100);
-        --bg-cta: var(--neutral-900);
+        --bg-cta: var(--accent-sage);
 
         /* 文字 */
         --text-primary: var(--neutral-900);
         --text-secondary: var(--neutral-600);
         --text-tertiary: var(--neutral-500);
         --text-on-dark: var(--white);
-        --text-accent: var(--accent-amber);
-        --text-highlight: var(--accent-pink);
+        --text-accent: var(--accent-mint);
+        --text-highlight: var(--accent-coral);
 
         /* 边框 */
-        --border-quote: var(--neutral-900);
-        --border-key-point: var(--accent-amber-border);
+        --border-quote: var(--accent-mint);
+        --border-key-point: var(--accent-mint-border);
 
         /* 间距 */
         --space-xs: 0.5rem;
@@ -189,7 +190,7 @@
         font-weight: 500;
         background: linear-gradient(
           transparent 60%,
-          rgba(219, 39, 119, 0.15) 60%
+          rgba(249, 115, 22, 0.15) 60%
         );
         padding: 0 2px;
       }
@@ -244,7 +245,7 @@
 
       section.key-point .key-point-title {
         font-weight: 600;
-        color: var(--text-accent);
+        color: var(--accent-sage);
         margin-bottom: var(--space-xs);
         display: flex;
         align-items: center;
@@ -253,8 +254,9 @@
       }
 
       section.key-point .key-point-title::before {
-        content: "◆";
-        font-size: 10px;
+        content: "●";
+        font-size: 8px;
+        color: var(--accent-mint);
       }
 
       section.key-point p {
@@ -326,7 +328,7 @@
         background: var(--neutral-100);
         padding: 2px 6px;
         border-radius: 4px;
-        color: var(--accent-pink);
+        color: var(--accent-sage);
       }
 
       pre {
@@ -445,23 +447,6 @@
   </body>
 </html>
 ```
-
----
-
-## 配色方案说明
-
-| 用途          | 颜色               | 色值    | 说明               |
-| ------------- | ------------------ | ------- | ------------------ |
-| 主文字        | neutral-900        | #1a1a1a | 纯黑偏暖，阅读舒适 |
-| 副标题        | neutral-600        | #525252 | 中灰，层级分明     |
-| 元信息        | neutral-500        | #a3a3a3 | 浅灰，弱化处理     |
-| 高亮          | accent-pink        | #db2777 | 玫红，醒目但不刺眼 |
-| 重点标题      | accent-amber       | #d97706 | 琥珀色，温暖专业   |
-| 重点背景      | accent-amber-light | #fffbeb | 极浅琥珀，柔和提示 |
-| 引用/标签背景 | neutral-100        | #f5f5f5 | 浅灰，不抢内容风头 |
-| CTA背景       | neutral-900        | #1a1a1a | 深色，形成视觉锚点 |
-
----
 
 ## 配图建议
 
