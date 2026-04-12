@@ -19,7 +19,8 @@ description: 初始化小说项目目录和设定模板
 2. 通用初始化步骤：
    - 在 `01_World` 创建空文件 `world_setting.md`
    - 在 `03_Outline` 创建空文件 `main_outline.md`
-   - 复制`templates/`下的所有文件到根目录
+   - 复制`templates/style_guide.md`到工作根目录
+   - 复制`templates/CLAUDE.md`到工作根目录
 
 3. 运行 `git init`（如未初始化），首次 commit "Initialize Novel Project"。
 
