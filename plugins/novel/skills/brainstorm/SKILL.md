@@ -28,7 +28,7 @@ description: "小说大纲生成器：根据用户输入，按步骤生成完整
 - [ ] Step8: 结局设计
 - [ ] Step9: 文风与语感定制
 - [ ] Step10: 输出文档
-- [ ] Step11: 调用skill(volume-outline)
+- [ ] Step11: 调用skill(volume-skeleton)
 
 ### Step1：类型与卖点引擎
 
@@ -221,7 +221,7 @@ description: "小说大纲生成器：根据用户输入，按步骤生成完整
 - `02_Characters/`：角色卡（每个角色单独文件）
 - `03_Outline/main_outline.md`：大纲内容（不含世界观、角色卡）
 
-### Step11：调用skill(volume-outline)
+### Step11：调用skill(volume-skeleton)
 
 - 输入：世界观、人物、主线冲突、爽点骨架
 
